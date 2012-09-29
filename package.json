@@ -1,0 +1,15 @@
+{
+  "name": "gitsha",
+  "version": "0.0.1",
+  "description": "reads git SHA1 value for given repo's HEAD",
+  "author": "Aaditya Bhatia <aadityabhatia@gmail.com>",
+  "main": "app.coffee",
+  "repository": "git://github.com/aadityabhatia/gitsha.git",
+  "keywords": [
+    "git",
+    "sha1sum",
+    "sha",
+    "repository"
+  ],
+  "license": "MIT"
+}
