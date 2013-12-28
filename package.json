@@ -1,15 +1,27 @@
 {
   "name": "gitsha",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "read git SHA1 value of a repository's HEAD revision",
   "author": "Aaditya Bhatia <aadityabhatia@gmail.com>",
-  "main": "app.coffee",
-  "repository": "git://github.com/aadityabhatia/gitsha.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aadityabhatia/gitsha.git"
+  },
   "keywords": [
     "git",
     "sha1sum",
     "sha",
     "repository"
   ],
-  "license": "Apache"
+  "main": "app.js",
+  "scripts": {
+    "prepublish": "coffee -c ."
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "licenses": [{
+    "type": "Apache",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  }]
 }
